@@ -32,10 +32,13 @@
 # 2.反向传播推导
 
 针对以下例子进行推导：
+
 <img src="./img/p1.png" width="50%">
 
+<img src="./img/p2.png" width="50%">
 
+<img src="./img/p3.png" width="50%">
 
-
+<img src="./img/p4.png" width="50%">
 
 
