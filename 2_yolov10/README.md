@@ -1,6 +1,6 @@
 # 说明
 
-本次代码运行基于自定义数据集SafetyHelmentWearingDatasets(安全帽监测数据集)进行训练、输出。
+本次代码运行基于安全帽监测数据集SafetyHelmentWearingDatasets（包含270张图片）进行训练、输出。
 
 此次运行对过程进行了适当简化，以提高效率
 
