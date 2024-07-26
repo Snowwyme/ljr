@@ -151,3 +151,7 @@ print(f'Loaded Model Test MSE: {loaded_mse}')
 ```
 将模型保存为 .keras 文件。
 加载保存的模型并进行预测，验证模型加载是否成功。
+
+# 测试结果
+
+
