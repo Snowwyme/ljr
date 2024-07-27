@@ -112,18 +112,6 @@ history = model.fit(X_train.values.reshape(-1, 2), y_train, epochs=10, batch_siz
 ```
 将测试数据重塑为合适的格式。训练模型，设置训练参数如训练次数、批量大小等。
 
-## 绘制训练和验证损失图
-```python
-# 绘制训练和验证损失图
-plt.plot(history.history['loss'], label='Train Loss')
-plt.plot(history.history['val_loss'], label='Validation Loss')
-plt.xlabel('Epoch')
-plt.ylabel('Loss')
-plt.title('Training and Validation Loss')
-plt.legend()
-plt.show()
-```
-绘制训练和验证损失随训练次数的变化图，以便观察模型的训练过程。
 ## 评估模型
 ```python
 # 评估模型
