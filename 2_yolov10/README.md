@@ -14,7 +14,7 @@
 
 <img src="./img/屏幕截图 2024-07-25 205947.png" >
 
-这段输出是进行目标检测模型性能验证的结果。该模型在Python 3.9.19和PyTorch 2.0.1+cpu环境下运行，使用的CPU是AMD Ryzen 7 7840H，并配备了Radeon 780M图形卡。
+这段输出是进行目标检测模型性能验证的结果。该模型在Python 3.9.19和PyTorch 2.0.1+cpu环境下运行。
 
 模型包含285层，总共有2695196个参数。验证的模型权重文件位于C:\Users\25119\Desktop\Python_begin\yolov10\runs\detect\train_v102\weights\best.pt。 使用了YOLOv10的YOLOv10-N版本，每张图片的处理时间被分解为预处理（1.0ms）、推理（74.3ms）、损失计算（0ms，因为验证阶段不计算损失）、后处理（0.2ms）。
 
