@@ -32,6 +32,7 @@ plt.title('Distribution of Ratings')
 plt.show()
 ```
 从 CSV 文件中读取用户评分数据。打印数据的前几行和描述统计信息。
+
 并利用matplotlib库函数绘制评分分布的直方图。
 
 ## 特征编码
