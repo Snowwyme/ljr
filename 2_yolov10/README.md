@@ -34,17 +34,17 @@
 训练配置文件（Args Files）：包含模型训练过程中的各种配置参数，如学习率、批次大小、训练轮次等。这些文件以.yaml等格式存储。
 
 结果文件：
-检测结果（Detection Results）：模型对测试集或新图像进行推理后产生的结果，包括边界框坐标、类别标签、置信度等信息。这些结果以.csv、图像文件（如.png）的形式存储。results.csv和results.png可能分别存储了检测结果的数据和可视化图像。
+检测结果：模型对测试集或新图像进行推理后产生的结果，包括边界框坐标、类别标签、置信度等信息。这些结果以.csv、图像文件（如.png）的形式存储。results.csv和results.png可能分别存储了检测结果的数据和可视化图像。
 
 
-预测图像（Prediction Images）：包含模型预测结果的图像文件，如val_batch0_pred.jpg可能展示了模型对验证集中某个批次图像的预测结果。
+预测图像：包含模型预测结果的图像文件，如val_batch0_pred.jpg可能展示了模型对验证集中某个批次图像的预测结果。
 
 可视化图表：
-性能评估图表（Performance Evaluation Charts）：如F1曲线、P-R曲线等，用于评估模型的性能。F1_curve.png、P_curve.png、PR_curve.png和R_curve.png分别展示了F1分数、精确率-召回率曲线等性能评估图表。
+性能评估图表：如F1曲线、P-R曲线等，用于评估模型的性能。F1_curve.png、P_curve.png、PR_curve.png和R_curve.png分别展示了F1分数、精确率-召回率曲线等性能评估图表。
 
 原始数据和标注：
-训练图像（Training Images）：用于模型训练的原始图像文件，如train_batch0.jpg、train_batch1.jpg等。
+训练图像：用于模型训练的原始图像文件，如train_batch0.jpg、train_batch1.jpg等。
 
-标注文件（Labels）：与训练图像对应的标注文件，包含了图像中目标的边界框坐标和类别标签。如val_batch0_labels.jpg，这里是指对标注结果进行可视化的图像。
+标注文件：与训练图像对应的标注文件，包含了图像中目标的边界框坐标和类别标签。如val_batch0_labels.jpg，这里是指对标注结果进行可视化的图像。
 
 
