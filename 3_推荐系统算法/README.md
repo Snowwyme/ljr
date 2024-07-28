@@ -130,17 +130,7 @@ print(f'Test MAE: {mae}')
 ```python
 # 保存模型
 model.save('matrix_factorization_model.keras')
-
-# 加载模型并进行预测
-from tensorflow.keras.models import load_model
-
-loaded_model = load_model('matrix_factorization_model.keras', custom_objects={'MatrixFactorizationModel': MatrixFactorizationModel})
-loaded_predictions = loaded_model.predict(X_test_reshaped).flatten()
-loaded_mse = tf.keras.losses.MSE(y_test, loaded_predictions).numpy()
-print(f'Loaded Model Test MSE: {loaded_mse}')
-```
 将模型保存为 .keras 文件。
-加载保存的模型并进行预测，验证模型加载是否成功。
 
 # 测试结果
 ## 输出1：
