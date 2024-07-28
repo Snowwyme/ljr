@@ -130,7 +130,8 @@ print(f'Test MAE: {mae}')
 ```python
 # 保存模型
 model.save('matrix_factorization_model.keras')
-将模型保存为 .keras 文件。
+#将模型保存为 .keras 文件。
+```
 
 # 测试结果
 ## 输出1：
