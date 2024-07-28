@@ -126,7 +126,7 @@ print(f'Test RMSE: {rmse}')
 print(f'Test MAE: {mae}')
 ```
 使用测试数据评估模型，计算 MSE、RMSE 和 MAE。
-## 保存和加载模型
+## 保存模型
 ```python
 # 保存模型
 model.save('matrix_factorization_model.keras')
