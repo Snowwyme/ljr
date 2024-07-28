@@ -2,9 +2,6 @@
 
 本次代码运行基于（自定义）安全帽监测数据集SafetyHelmentWearingDatasets（包含270张图片）进行训练、输出。
 
-此次运行对过程进行了适当简化，以提高效率
-
-
 ## 输出
 
 <img src="./img/截图1.png" >
